@@ -15,7 +15,7 @@ function App() {
     return (
         <div className='app'>
             <User user={user} />
-            <button onClick={() => dispatch(fetchUser())}>Reload</button>
+            <button className="reloadUserBtn" onClick={() => dispatch(fetchUser())}>Reload</button>
         </div>
     );
 }
